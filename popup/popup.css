@@ -1,0 +1,10 @@
+#save-btn, #load-btn {
+    border-radius: 3px;
+    background-color: white;
+    border: 1px black solid;
+}
+#save-btn:hover, #load-btn:hover {
+    cursor: pointer;
+    background-color: rgb(190, 190, 190);
+    border-radius: 5px;
+}

@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"author": "Josef Haupt",
+	"name": "Session Saver",
+	"description": "Saves the the session of the current window to be retrieved later.",
+	"version": "1.0",
+	"homepage_url": "https://github.com/Josef-Haupt/session-saver",
+	"icons": {
+		"48": "icons/icon48.png"
+	},
+	"permissions": [
+		"tabs",
+		"storage"
+	],
+	"browser_action": {
+		"default_icon": "icons/icon48.png",
+		"default_title": "Save session!",
+		"default_popup": "popup/popup.html"
+	}
+}
