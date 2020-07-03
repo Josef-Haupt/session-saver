@@ -32,7 +32,9 @@ class BrowserHandler {
     }
 
     resolvePath(path) {
-        let temp = this.isChrome ? chrome : browser;
+        // Firefox hat eine Callback API in den chrome namespace implementiert, darum ist beides definiert
+        // nur chrome kennt browser nicht.
+        let temp = this.isFirefox ? browser : chrome;
 
         for (const p of path) {
             temp = temp[p]
