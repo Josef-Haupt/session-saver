@@ -3,7 +3,7 @@
 	"author": "Josef Haupt",
 	"name": "Session Saver",
 	"description": "Saves the the session of the current window to be retrieved later.",
-	"version": "1.0",
+	"version": "1.0.1",
 	"homepage_url": "https://github.com/Josef-Haupt/session-saver",
 	"icons": {
 		"48": "icons/icon48.png"
